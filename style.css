@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    padding-inline: 40px;
+}
+.icon-part{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.icon-part span{
+    font-size: 20px;
+    color: orangered;
+}
+.list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.list li{
+    list-style: none;
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+}
+.list li:first-child{
+    color: orangered;
+}
+.button-part{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.button-part button{
+    width: 110px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    color: orangered;
+    font-size: 16px;
+}
+.banner-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 70px;
+    background-color: rgb(252, 248, 248);
+}
+.left-part{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 60px;
+}
+.left-part h1{
+    font-size: 45px;
+}
+.left-part h1 span{
+    color: orangered;
+    opacity: 0.8;
+ 
+}
+.left-part p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(70, 69, 69);
+}
+.left-part button{
+    width: 230px;
+    height: 45px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.right-part{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width : 768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: 80px;
+
+    }
+    .icon-part{
+        width: 10%;
+    }
+    .list{
+        display: none;
+    }
+    .button-part{
+        width: 80%;
+    }
+    .button-part button{
+        width: 80px;
+        height: 40px;
+    }
+    .banner-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-part p{
+        font-size: 13px;
+    }
+    .left-part button{
+        width: 180px;
+        height: 35px;
+        background-color: orangered;
+        border: none;
+        color: white;
+        margin-top: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+    .right-part{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+
+}
